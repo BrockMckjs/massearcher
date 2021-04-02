@@ -27,7 +27,8 @@ function submitInput() {
     $(document).ready(function() {
         $('#select').click(function() {
             $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
-                window.open(this.value + input); // $(this).val()
+                window.open(this.value + input);
+                window.location.reload(); // $(this).val()
             });
         });
     });
