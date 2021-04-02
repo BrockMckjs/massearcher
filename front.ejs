@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="search.js"></script>
     <meta charset="UTF-8" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -16,12 +18,24 @@
 <p>&nbsp;</p>
 <div>
     <h1 class="title" style="text-align: center;">Massearch</h1>
-    <form>
+    <form method="POST" id="formulario">
         <p style="text-align: center;"><input class="searchTerm" type="text" placeholder="" /></p>
         <p style="text-align: center;">&nbsp;</p>
 </div>
 <p style="text-align: center;"><button type="button">Search</button></p>
-</form>
 <div>&nbsp;</div>
+<input type="checkbox" name="inputs" value="Google"> Google<br>
+<input type="checkbox" name="inputs" value="Bing"> Bing<br>
+<input type="checkbox" name="inputs" value="DuckDuckGo"> DuckDuckGo<br>
+<input type="checkbox" name="inputs" value="Wikipedia"> Wikipedia<br>
+<input type="checkbox" name="inputs" value="GitHub"> GitHub<br>
+<input type="checkbox" name="inputs" value="Ecosia"> Ecosia<br>
+<input type="checkbox" name="inputs" value="Dogpile"> Dogpile<br>
+<input type="checkbox" name="inputs" value="YippySearch"> YippySearch<br>
+<input type="checkbox" name="inputs" value="Yahoo"> Yahoo<br>
+<input type="checkbox" name="inputs" value="The Internet Archive"> The Internet Archive<br>
+<input type="checkbox" name="inputs" value="Youtube"> Youtube<br>
+<button type="button" name="inputs" value="add" onclick="addInput();"> Add<br>
+</form>
 
 <body>
