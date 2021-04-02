@@ -1,8 +1,8 @@
 function addInput() {
     var newdiv = document.createElement('div');
     //newdiv.id = dynamicInput[counter];
-    newdiv.innerHTML = "Entry <br><input type='text' name='myInputs[]' placeholder = 'https://example.com/search?q={searchterms}}' size = '45'> <input type='button' value='-' onClick='removeInput(this);'>";
-    document.getElementById('formulario').appendChild(newdiv);
+    newdiv.innerHTML = "<br><input type='text' name='myInputs[]' placeholder = 'https://example.com/search?q={searchterms}}' size = '45' style = 'margin-left: 3%;'> <input type='button' value='-' onClick='removeInput(this);'>";
+    document.getElementById('myForm').appendChild(newdiv);
 }
 
 function removeInput(btn) {
