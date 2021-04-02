@@ -7,4 +7,10 @@ function addInput() {
 
 function removeInput(btn) {
     btn.parentNode.remove();
+
+}
+
+function submitTerm() {
+    var input = document.getElementById('input').value;
+    console.log(input)
 }
