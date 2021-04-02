@@ -10,10 +10,19 @@ function removeInput(btn) {
 
 }
 
-var input = document.getElementById('input').value;
+function submitTerm() {
+    var input = document.getElementsByClassName('searchTerm').value;
+    console.log(input)
+}
+
+
+
+
+
 
 function submitInput() {
 
+    let input = document.getElementById('searchTerm').value;
 
     $(document).ready(function() {
         $('#select').click(function() {

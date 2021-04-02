@@ -16,49 +16,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <title>Massearch</title>
 
-    <script>
-        function addInput() {
-            var newdiv = document.createElement('div');
-            //newdiv.id = dynamicInput[counter];
-            newdiv.innerHTML = "Entry <br><input type='text' name='myInputs[]' placeholder = 'https://example.com/search?q={searchterms}}' size = '45'> <input type='button' value='-' onClick='removeInput(this);'>";
-            document.getElementById('formulario').appendChild(newdiv);
-        }
-
-        function removeInput(btn) {
-            btn.parentNode.remove();
-
-        }
-
-        function submitTerm() {
-            var input = document.getElementsByClassName('searchTerm').value;
-            console.log(input)
-        }
-
-
-
-
-        var input = document.getElementById('input').value;
-
-        function submitInput() {
-
-
-            $(document).ready(function() {
-                $('#select').click(function() {
-                    $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
-                        window.open(this.value + input); // $(this).val()
-                    });
-                });
-            });
-
-        }
-    </script>
 </head>
 <form id="myForm">
     <p>&nbsp;</p>
     <div>
         <h1 class="title" style="text-align: center;">Massearch</h1>
         <form method="POST" id="formulario">
-            <p style="text-align: center;"><input class="searchTerm" type="text" placeholder="" id="input" /></p>
+            <p style="text-align: center;"><input class="searchTerm" type="text" placeholder="" id="searchTerm" /></p>
             <p style="text-align: center;">&nbsp;</p>
             <p style="text-align: center;"><button type="button" id="select" onclick='submitInput()'>Search</button></p>
     </div>

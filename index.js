@@ -5,6 +5,7 @@ const path = require('path');
 
 app.set("view engine", "ejs")
 app.set('views', path.join(__dirname))
+app.use(express.static(__dirname));
 
 
 app.get('/', (req, res) => {
