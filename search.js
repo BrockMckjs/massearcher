@@ -26,25 +26,22 @@ function submitInput() {
     let input = document.getElementById('searchTerm').value;
 
     $(document).ready(function() {
-        $('#select').click(function() {
-            $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
-                window.open(this.value + input);
-                window.location.reload(); // $(this).val()
-            });
+        $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
+            window.open(this.value + input);
+            window.location.reload(); // $(this).val()
         });
     });
 }
+
 
 function submitCustom() {
     let input = document.getElementById('searchTerm').value;
 
 
     $(document).ready(function() {
-        $('#select').click(function() {
-            $('input[id="custom"]').each(function() { // $(':checkbox:checked')
-                window.open(this.value + input);
-                window.location.reload(); // $(this).val()
-            });
+        $('input[id="custom"]').each(function() { // $(':checkbox:checked')
+            window.open(this.value + input);
+            window.location.reload(); // $(this).val()
         });
     });
 }
