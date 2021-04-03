@@ -1,7 +1,7 @@
 function addInput() {
     var newdiv = document.createElement('div');
     //newdiv.id = dynamicInput[counter];
-    newdiv.innerHTML = "<br><input type='text' name='myInputs[]' placeholder = 'https://example.com/search?q={searchterms}}' size = '45' style = 'margin-left: 3%;'> <input type='button' value='-' onClick='removeInput(this);'>";
+    newdiv.innerHTML = "<br><input type='text' name='myInputs' id ='custom' placeholder = 'https://example.com/search?q=' size = '45' style = 'margin-left: 3%;'> <input type='button' value='-' onClick='removeInput(this);'>";
     document.getElementById('myForm').appendChild(newdiv);
 }
 
@@ -33,4 +33,19 @@ function submitInput() {
         });
     });
 
+}
+
+
+function submitCustom() {
+    let input = document.getElementById('searchTerm').value;
+
+
+    $(document).ready(function() {
+        $('#select').click(function() {
+            $('input[type="text"]').each(function() { // $(':checkbox:checked')
+                window.open(this.value + input);
+                window.location.reload(); // $(this).val()
+            });
+        });
+    });
 }
