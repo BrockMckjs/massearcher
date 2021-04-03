@@ -22,7 +22,7 @@ function submitTerm() {
 
 function submitInput() {
 
-    alert('This site requires pop-ups enabled to work correctly')
+
     let input = document.getElementById('searchTerm').value;
 
     $(document).ready(function() {
