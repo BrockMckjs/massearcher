@@ -32,9 +32,7 @@ function submitInput() {
             });
         });
     });
-
 }
-
 
 function submitCustom() {
     let input = document.getElementById('searchTerm').value;
@@ -42,7 +40,7 @@ function submitCustom() {
 
     $(document).ready(function() {
         $('#select').click(function() {
-            $('input[type="text"]').each(function() { // $(':checkbox:checked')
+            $('input[id="custom"]').each(function() { // $(':checkbox:checked')
                 window.open(this.value + input);
                 window.location.reload(); // $(this).val()
             });
