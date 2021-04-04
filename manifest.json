@@ -1,0 +1,14 @@
+{
+    "name": "Page Redder",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "search multiple search engines",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
