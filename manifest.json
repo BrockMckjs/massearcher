@@ -1,14 +1,32 @@
 {
     "name": "Massearcher",
-    "action": {},
-    "manifest_version": 3,
+    "action": {
+        "default_popup": "front.html"
+    },
+    "manifest_version": 2,
     "version": "0.1",
     "description": "search multiple search engines",
     "permissions": [
         "activeTab",
-        "scripting"
+        "tabs",
+        "storage"
+
     ],
+
     "background": {
-        "service_worker": "background.js"
-    }
+        "scripts": ["background.js"],
+        "persistent": false
+
+    },
+
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["search.js", "background.js"]
+    }]
+
+
+
+
 }
