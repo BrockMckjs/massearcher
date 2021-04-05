@@ -1,6 +1,6 @@
 {
     "name": "Massearcher",
-    "action": {
+    "browser_action": {
         "default_popup": "front.html"
     },
     "manifest_version": 2,
@@ -23,10 +23,10 @@
         "matches": [
             "<all_urls>"
         ],
-        "js": ["search.js", "background.js"]
-    }]
+        "js": ["search.js"]
+    }],
 
-
+    "content_security_policy": "script-src 'self' 'sha256-here'"
 
 
 }
