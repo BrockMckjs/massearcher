@@ -1,4 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////
+
+///submit custom searches
 document.addEventListener('DOMContentLoaded', function() {
     var buttonSub = document.getElementById('select');
     var input = document.getElementById('searchTerm').value;
@@ -14,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 })
 
-
+/// submit selected searches
 document.addEventListener('DOMContentLoaded', function() {
     var buttonSub = document.getElementById('select');
     var input = document.getElementById('searchTerm').value;
@@ -30,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 
-
+/// add searches
 document.addEventListener('DOMContentLoaded', function() {
 
     var addButton = document.getElementById('custom')

@@ -4,12 +4,11 @@
         "default_popup": "front.html"
     },
     "manifest_version": 2,
-    "version": "0.1",
-    "description": "search multiple search engines",
+    "version": "1.0",
+    "description": "Search multiple search engines",
     "permissions": [
         "activeTab",
-        "tabs",
-        "storage"
+        "tabs"
 
     ],
 
@@ -23,6 +22,6 @@
         "matches": [
             "<all_urls>"
         ],
-        "js": ["search.js", "background.js"]
+        "js": ["search.js"]
     }]
 }
