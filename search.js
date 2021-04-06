@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     buttonSub.addEventListener('click', function() {
         $(document).ready(function() {
             $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
-                chrome.tabs.create(this.value + input);
+                chrome.tabs.create({ url: this.value + input });
                 window.location.reload();
             })
         })
