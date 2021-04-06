@@ -1,7 +1,16 @@
+window.onload = function() {
+
+    var buttonSub = document.getElementById("select")
+
+    if (buttonSub) {
+        (buttonSub.addEventListener('click,', submitInput(), submitCustom()))
+    }
+}
+
 function addInput() {
     var newdiv = document.createElement('div');
     //newdiv.id = dynamicInput[counter];
-    newdiv.innerHTML = "<br><input type='text' name='myInputs' id ='custom' placeholder = 'https://example.com/search?q=' size = '45' style = 'margin-left: 3%;'> <input type='button' value='-' onClick='removeInput(this);'>";
+    newdiv.innerHTML = "<br><input type='text' name='myInputs' id ='custom' placeholder = 'https://example.com/search?q=' size = '45' style = 'margin-left: 3%;'> <input type='button' value='-' id='removeInput'>";
     document.getElementById('myForm').appendChild(newdiv);
 }
 
@@ -14,7 +23,6 @@ function submitTerm() {
     var input = document.getElementsByClassName('searchTerm').value;
     console.log(input)
 }
-
 
 
 

@@ -23,10 +23,8 @@
         "matches": [
             "<all_urls>"
         ],
-        "js": ["search.js"]
+        "js": ["search.js", "background.js"]
     }],
 
-    "content_security_policy": "script-src 'self' 'sha256-here'"
-
-
+    "content_security_policy": "script-src 'self' 'sha256-'"
 }

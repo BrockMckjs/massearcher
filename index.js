@@ -9,12 +9,12 @@ app.use(express.static(__dirname));
 
 
 app.get('/', (req, res) => {
-    res.render('front.ejs')
+    res.render('front.html')
 })
 
 
 app.get('/', (req, res) => {
-    res.render('front.ejs')
+    res.render('front.html')
 })
 
 
