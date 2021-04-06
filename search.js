@@ -52,17 +52,3 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     })
 })
-
-
-//document.addEventListener('click', function() {
-//  var buttonSub = document.getElementById('select');
-//var input = document.getElementById('searchTerm').value;
-//let values = document.getElementById('customInput').value
-
-//buttonSub.addEventListener('click', function() {
-//  document.getElementById('customInput').each(function() {
-//    chrome.tabs.create({ url: values + document.getElementById('searchTerm').value });
-//  window.location.reload();
-// })
-//})
-//})
