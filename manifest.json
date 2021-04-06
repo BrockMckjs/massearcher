@@ -26,5 +26,5 @@
         "js": ["search.js", "background.js"]
     }],
 
-    "content_security_policy": "script-src 'self' 'sha256-'"
+    "content_security_policy": "script-src 'self' 'unsafe-eval'"
 }

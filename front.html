@@ -24,7 +24,7 @@
         <form method="POST" id="formulario">
             <p style="text-align: center;"><input class="searchTerm" type="text" placeholder="" id="searchTerm" /></p>
             <p style="text-align: center;">&nbsp;</p>
-            <p style="text-align: center;"><button type="button" id="select" onclick='submitInput(); submitCustom();'>Search</button></p>
+            <p style="text-align: center;"><button type="button" id="select">Search</button></p>
             <p style="text-align: center;">Created by <a href="https://github.com/BrockMckjs">Brock McKenzie</a></p>
 
     </div>
@@ -40,7 +40,7 @@
     <input type="checkbox" name="inputs" value="https://search.yahoo.com/search?p=" id="Yahoo" style="text-align: center;margin-left: 3%;"> Yahoo<br>
     <input type="checkbox" name="inputs" value="https://archive.org/search.php?query=" id="The Internet Archive" style="text-align: center; text-align: center;margin-left: 3%;"> The Internet Archive<br>
     <input type="checkbox" name="inputs" value="https://www.youtube.com/results?search_query=" id="YouTube" style="text-align: center; text-align: center;margin-left: 3%;"> Youtube<br>
-    <button type="button" name="inputs" value="add" onclick="addInput();" style="text-align: center; text-align: center;margin-left: 3%;"> Add<br></button>
+    <button type="button" name="inputs" value="add" id='custom' style="text-align: center; text-align: center;margin-left: 3%;"> Add<br></button>
     </form>
 
     <body>

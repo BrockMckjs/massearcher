@@ -35,7 +35,7 @@ function submitInput() {
 
     $(document).ready(function() {
         $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
-            window.open(this.value + input);
+            tabs.create(this.value + input);
             window.location.reload(); // $(this).val()
         });
     });
@@ -48,8 +48,54 @@ function submitCustom() {
 
     $(document).ready(function() {
         $('input[id="custom"]').each(function() { // $(':checkbox:checked')
-            window.open(this.value + input);
+            tabs.create(this.value + input);
             window.location.reload(); // $(this).val()
         });
     });
 }
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var buttonSub = document.getElementById('select');
+    let input = document.getElementById('searchTerm').value;
+    //onclick
+    buttonSub.addEventListener('click', function() {
+        $(document).ready(function() {
+            $('input[id="custom"]').each(function() { // $(':checkbox:checked')
+                tabs.create(this.value + input);
+                window.location.reload();
+            })
+        })
+    })
+})
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+document.addEventListener('DOMContentLoaded', function() {
+    var buttonSub = document.getElementById('select');
+    let input = document.getElementById('searchTerm').value;
+    //onclick
+    buttonSub.addEventListener('click', function() {
+        $(document).ready(function() {
+            $('input[id="custom"]').each(function() { // $(':checkbox:checked')
+                chrome.tabs.create(this.value + input);
+                window.location.reload();
+            })
+        })
+    })
+})
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var buttonSub = document.getElementById('select');
+    let input = document.getElementById('searchTerm').value;
+    //onclick
+    buttonSub.addEventListener('click', function() {
+        $(document).ready(function() {
+            $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
+                chrome.tabs.create(this.value + input);
+                window.location.reload();
+            })
+        })
+    })
+})
