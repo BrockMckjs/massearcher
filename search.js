@@ -3,12 +3,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     var buttonSub = document.getElementById('select');
     var input = document.getElementById('searchTerm').value;
-    let customValue = document.getElementById('customInput').value
+    let customValue = document.getElementById('customInput')
         //onclick
     buttonSub.addEventListener('click', function() {
         $(document).ready(function() {
             $('input[id="customInput"]').each(function() { // $(':checkbox:checked')
-                chrome.tabs.create({ url: customValue + document.getElementById('searchTerm').value });
+                chrome.tabs.create({ url: customValue.value + document.getElementById('searchTerm').value });
                 window.location.reload();
             })
         })
@@ -34,15 +34,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
 
+    $(document).ready(function() {
 
-    var addButton = document.getElementById('custom')
-    addButton.addEventListener('click', function() {
-        var newdiv = document.createElement('div');
-        //newdiv.id = dynamicInput[counter];
-        newdiv.innerHTML = "<br><input type='text' name='myInputs' id='customInput' placeholder='https://example.com/search?q=' size='45' style='margin-left: 3%;width: 190px;'>" // add a remove button (messes up styling on front.html, will fix in later update.) <input type='button' value='-' id='removeInput'>";
-        document.getElementById('myForm').appendChild(newdiv);
+        var addButton = document.getElementById('custom')
+        addButton.addEventListener('click', function() {
+            var newdiv = document.createElement('div');
+            //newdiv.id = dynamicInput[counter];
+            newdiv.innerHTML = "<br><input type='text' name='myInputs' id='customInput' placeholder='https://example.com/search?q=' size='45' style='margin-left: 3%;width: 190px;'>" // add a remove button (messes up styling on front.html, will fix in later update.) <input type='button' value='-' id='removeInput'>";
+            document.getElementById('myForm').appendChild(newdiv);
 
-        document.addEventListener('click', function() {
+            //    document.addEventListener('click', function() {
 
 
             //var removeInput = document.getElementById('removeInput')
