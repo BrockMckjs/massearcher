@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     var buttonSub = document.getElementById('select');
-    let input = document.getElementById('searchTerm').value;
+    var input = document.getElementById('searchTerm').value;
     //onclick
     buttonSub.addEventListener('click', function() {
         $(document).ready(function() {
@@ -88,12 +88,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     var buttonSub = document.getElementById('select');
-    let input = document.getElementById('searchTerm').value;
-    //onclick
+    var input = document.getElementById('searchTerm').value;
+    var value = document.getElementsBy
+        //onclick
     buttonSub.addEventListener('click', function() {
         $(document).ready(function() {
             $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
-                chrome.tabs.create({ url: this.value + input });
+                chrome.tabs.create({ url: this.value + document.getElementById('searchTerm').value });
                 window.location.reload();
             })
         })
