@@ -24,7 +24,5 @@
             "<all_urls>"
         ],
         "js": ["search.js", "background.js"]
-    }],
-
-    "content_security_policy": "script-src 'self' 'unsafe-eval'"
+    }]
 }
