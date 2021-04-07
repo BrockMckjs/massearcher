@@ -1,1 +1,1 @@
-//all operations are done in search.js file, inspect eidt to see the code or go to https://github.com/BrockMckjs/massearcher
+//all operations are done in search.js file, inspect edit to see the code or go to https://github.com/BrockMckjs/massearcher
