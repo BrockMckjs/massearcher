@@ -7,3 +7,6 @@ This is a chrome extension that will search multiple engines all at once. Pull r
 
 
 Don't mind the terrible file orginization, this was made faster than it should have been.
+
+
+https://chrome.google.com/webstore/detail/massearcher/acafgicapfnopjappfmfaegjpoagjmkb
