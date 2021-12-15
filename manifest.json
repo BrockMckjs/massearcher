@@ -1,6 +1,6 @@
 {
     "name": "Massearcher",
-    "browser_action": {
+    "action": {
         "default_popup": "front.html"
     },
     "manifest_version": 3,
