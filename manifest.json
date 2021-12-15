@@ -3,7 +3,7 @@
     "browser_action": {
         "default_popup": "front.html"
     },
-    "manifest_version": 2,
+    "manifest_version": 3,
     "version": "1.0",
     "description": "Search multiple search engines",
 
@@ -23,8 +23,7 @@
 
 
     "background": {
-        "scripts": ["background.js"],
-        "persistent": false
+        "service_worker": "background.js"
 
     },
 
