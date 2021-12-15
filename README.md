@@ -11,6 +11,5 @@ this is the central repository for development
 - [ ]allow for image searches
 - [ ]aggregate search results to a single page
 
-### webstore
+### webstore (may not be always up to date)
 https://chrome.google.com/webstore/detail/massearcher/acafgicapfnopjappfmfaegjpoagjmkb
-(may not be always up to date)
