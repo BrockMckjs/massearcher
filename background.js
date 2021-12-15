@@ -1,1 +1,3 @@
-//all operations are done in search.js file, inspect edit to see the code or go to https://github.com/BrockMckjs/massearcher
+chrome.browserAction.onClicked.addListener(function(){
+    chrome.tabs.create({'url':"chrome://newtab"})
+})

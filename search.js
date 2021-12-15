@@ -1,35 +1,39 @@
-////////////////////////////////////////////////////////////////////////////////////////////
+//submit functions
 
-///submit custom searches
+//submit custom
+function submitA() {
+    $(document).ready(function() {
+        $('input[id="customInput"]').each(function() { // $(':checkbox:checked')
+            chrome.tabs.create({ url: document.getElementById('customInput').value + document.getElementById('searchTerm').value });
+            window.location.reload();
+})
+})
+}
+
+
+//submit checked
+function submitB() {
+    $(document).ready(function() {
+        $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
+            chrome.tabs.create({ url: this.value + document.getElementById('searchTerm').value });
+            window.location.reload();
+})
+})
+}
+
+
+// in a future update, these functions should be merged together and just have values passed through them, as they are nearly identical. but since i am lazy and working on a piece of software that nobody but me will use, i do not care.
+
+
+///submit searches
 document.addEventListener('DOMContentLoaded', function() {
     var buttonSub = document.getElementById('select');
-    var input = document.getElementById('searchTerm').value;
-    let customValue = document.getElementById('customInput')
         //onclick
     buttonSub.addEventListener('click', function() {
-        $(document).ready(function() {
-            $('input[id="customInput"]').each(function() { // $(':checkbox:checked')
-                chrome.tabs.create({ url: document.getElementById('customInput').value + document.getElementById('searchTerm').value });
-                window.location.reload();
+        submitA();
+        submitB();
             })
         })
-    })
-})
-
-/// submit selected searches
-document.addEventListener('DOMContentLoaded', function() {
-    var buttonSub = document.getElementById('select');
-    var input = document.getElementById('searchTerm').value;
-    //onclick
-    buttonSub.addEventListener('click', function() {
-        $(document).ready(function() {
-            $('input[type="checkbox"]:checked').each(function() { // $(':checkbox:checked')
-                chrome.tabs.create({ url: this.value + document.getElementById('searchTerm').value });
-                window.location.reload();
-            })
-        })
-    })
-})
 
 
 /// add searches
@@ -44,13 +48,16 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('myForm').appendChild(newdiv);
 
         })
+    })
+})
 
-        //    document.addEventListener('click', function() {
-
-
-        //var removeInput = document.getElementById('removeInput')
-        //removeInput.addEventListener('click', function() {
-        //  btn.parentNode.remove();
-        // ^^^^ this is all remove cutsom input button functionality. didnt add it yet because it broke the extension, but works on regular html. need to make it work with external js file.
+// submit when enter is pressed
+document.addEventListener('DOMContentLoaded', function() {
+    var input = document.getElementById('searchTerm');
+    input.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+            submitA();
+            submitB();
+        }
     })
 })
