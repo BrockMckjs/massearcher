@@ -11,7 +11,9 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 
 <!-- PROJECT LOGO -->
@@ -132,7 +134,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Acknowledgements
 
+https://github.com/othneildrew/Best-README-Template
 
 <!-- CONTACT -->
 ## Contact
@@ -150,7 +154,7 @@ Project Link: [https://github.com/BrockMckjs/massearcher](https://github.com/Bro
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://github.com/BrockMckjs/massearcher.svg?style=for-the-badge
 [contributors-url]: https://github.com/BrockMckjs/massearcher/graphs/contributors
-[forks-shield]: https://github.com/BrockMckjs/massearcher.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/BrockMckjs/massearcher.svg
 [forks-url]: https://github.com/BrockMckjs/massearcher/network/members
 [stars-shield]: https://img.shields.io/github/stars/BrockMckjs/massearcher.svg?style=for-the-badge
 [stars-url]: https://github.com/BrockMckjs/massearcher/stargazers
