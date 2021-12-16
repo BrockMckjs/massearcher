@@ -24,7 +24,7 @@
 <h3 align="center">Massearcher</h3>
 
   <p align="center">
-    Search multiple search engines at onceS
+    Search multiple search engines at once
     <br />
     <br />
     <a href="https://github.com/BrockMckjs/massearcher/issues">Report Bug</a>
