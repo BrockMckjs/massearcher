@@ -8,7 +8,7 @@
     "description": "Search multiple search engines",
 
     "chrome_url_overrides" : {
-        "newtab": "front.html"
+        "newtab": "src/front.html"
     },
 
     "permissions": [
@@ -16,14 +16,14 @@
     ],
 
     "icons": {
-        "16": "newicondone.png",
-        "48": "newicondone.png",
-        "128": "newicondone.png"
+        "16": "dist/images/newicondone.png",
+        "48": "dist/images/newicondone.png",
+        "128": "dist/images/newicondone.png"
     },
 
 
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "src/background.js"
 
     },
 
@@ -31,6 +31,6 @@
         "matches": [
             "<all_urls>"
         ],
-        "js": ["search.js"]
+        "js": ["src/search.js"]
     }]
 }
