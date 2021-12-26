@@ -145,6 +145,8 @@ Brock McKenzie -  brockmckjs@gmail.com
 
 Project Link: [https://github.com/BrockMckjs/massearcher](https://github.com/BrockMckjs/massearcher)
 
+Web Store: https://chrome.google.com/webstore/detail/massearcher/ejdjflcmlhdebbljhblmefdajpldiggf
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
