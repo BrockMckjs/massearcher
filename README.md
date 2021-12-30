@@ -108,7 +108,6 @@ Click "search" or hit "Enter" and it will open the results from each search engi
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Light/dark mode button
 - [] Aggregate all search results to a single page
 - [] Firefox extension
 
