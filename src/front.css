@@ -2,3 +2,9 @@ body{
     filter: invert(100%);
     background-color: black;
 }
+.list {
+    text-align: center; text-align: center;margin-left: 3%;
+}
+.bottom {
+    text-align: center;
+}

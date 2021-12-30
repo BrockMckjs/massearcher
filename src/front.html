@@ -14,52 +14,50 @@
     <link rel="stylesheet" href="front.css">
 
     <title>Massearcher</title>
-
 </head>
 <form id="myForm">
     <p>&nbsp;</p>
     <div>
         <h1 class="title" style="text-align: center; padding-right: 3px">Massearcher</h1>
         <form method="POST" id="formulario">
-            <p style="text-align: center;"><input class="searchTerm" type="text" placeholder="" id="searchTerm" /></p>
-            <p style="text-align: center;">&nbsp;</p>
-            <p style="text-align: center;"><button type="button" id="select">Search</button></p>
-            
-
+        <p style="text-align: center;"><input class="searchTerm" type="text" placeholder="" id="searchTerm" /></p>
+        <p style="text-align: center;">&nbsp;</p>
+        <p style="text-align: center;"><button type="button" id="select">Search</button></p>
     </div>
     <div>&nbsp;</div>
     <div id="options">
-    <input type="checkbox" name="inputs" value="https://www.google.com/search?q=" id="Google" style="text-align: center; text-align: center;margin-left: 3%;"> Google<br>
-    <input type="checkbox" name="inputs" value="https://www.bing.com/search?q=" id="Bing" style="text-align: center; text-align: center;margin-left: 3%;"> Bing<br>
-    <input type="checkbox" name="inputs" value="https://duckduckgo.com/?q=" id="DuckDuckGo" style="text-align: center; text-align: center;margin-left: 3%;"> DuckDuckGo<br>
-    <input type="checkbox" name="inputs" value="https://en.wikipedia.org/wiki/" id="Wikipedia" style="text-align: center; text-align: center;margin-left: 3%;"> Wikipedia<br>
-    <input type="checkbox" name="inputs" value="https://github.com/search?q=" id="GitHub" style="text-align: center; text-align: center;margin-left: 3%;"> GitHub<br>
-    <input type="checkbox" name="inputs" value="https://www.ecosia.org/search?q=" id="Ecosia" style="text-align: center; text-align: center;margin-left: 3%;"> Ecosia<br>
-    <input type="checkbox" name="inputs" value="https://www.dogpile.com/serp?q=" id="Dogpile" style="text-align: center; text-align: center;margin-left: 3%;"> Dogpile<br>
-    <input type="checkbox" name="inputs" value="https://yippy.com/search?query=" id="YippySearch" style="text-align: center; text-align: center;margin-left: 3%;"> YippySearch<br>
-    <input type="checkbox" name="inputs" value="https://search.yahoo.com/search?p=" id="Yahoo" style="text-align: center;margin-left: 3%;"> Yahoo<br>
-    <input type="checkbox" name="inputs" value="https://archive.org/search.php?query=" id="The Internet Archive" style="text-align: center; text-align: center;margin-left: 3%;"> The Internet Archive<br>
-    <input type="checkbox" name="inputs" value="https://www.youtube.com/results?search_query=" id="YouTube" style="text-align: center; text-align: center;margin-left: 3%;"> Youtube<br>
-    <input type="checkbox" name="inputs" value="https://search.brave.com/search?q=" id="Brave" style="text-align: center; text-align: center;margin-left: 3%;"> Brave<br>
-    <input type="checkbox" name="inputs" value="https://www.protondb.com/search?q=" id="ProtonDB" style="text-align: center; text-align: center;margin-left: 3%;"> ProtonDB<br>
-    <input type="checkbox" name="inputs" value="https://www.eneba.com/us/store?text=" id="Eneba" style="text-align: center; text-align: center;margin-left: 3%;"> Eneba<br>
-    <input type="checkbox" name="inputs" value="https://www.g2a.com/search?query=" id="G2A" style="text-align: center; text-align: center;margin-left: 3%;"> G2A<br>
-    <input type="checkbox" name="inputs" value="https://www.walmart.com/search?q=" id="walmart" style="text-align: center; text-align: center;margin-left: 3%;"> Walmart<br>
-    <input type="checkbox" name="inputs" value="https://www.bestbuy.com/site/searchpage.jsp?st=" id="BestBUy" style="text-align: center; text-align: center;margin-left: 3%;"> BestBuy<br>
-    <input type="checkbox" name="inputs" value="https://www.newegg.com/p/pl?d=" id="newegg" style="text-align: center; text-align: center;margin-left: 3%;"> Newegg<br>
-    <input type="checkbox" name="inputs" value="https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=" id="ebay" style="text-align: center; text-align: center;margin-left: 3%;"> Ebay<br>
-    <input type="checkbox" name="inputs" value="https://www.amazon.com/s?k=test&crid=OWXJ4CTR850R&sprefix=" id="amazon" style="text-align: center; text-align: center;margin-left: 3%;"> Amazon<br>
-    <input type="checkbox" name="inputs" value="https://www.pdfdrive.com/search?q=" id="PDFdrive" style="text-align: center; text-align: center;margin-left: 3%;"> PDFdrive<br>
-    <input type="checkbox" name="inputs" value="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C3&q=" id="GS" style="text-align: center; text-align: center;margin-left: 3%;"> Google Scholar<br>
-    <input type="checkbox" name="inputs" value="https://music.apple.com/us/search?term=" id="AppleM" style="text-align: center; text-align: center;margin-left: 3%;"> Apple Music<br>
-    <input type="checkbox" name="inputs" value="https://open.spotify.com/search/" id="Spotify" style="text-align: center; text-align: center;margin-left: 3%;"> Spotify<br>
-    <!--this will add <input type='text' name='myInputs' id="customInput" placeholder='https://example.com/search?q=' size='45' style='margin-left: 3%;width: 190px;'> --> 
-    <button type="button" name="inputs" value="add" id='custom' style="text-align: center; text-align: center;margin-left: 3%;"> Add<br></button>
-</div>
-<div><p style="text-align: center;"></a>If you would like to have your store or search engine added, please email brockmckjs@gmail.com</p>
-     <p style="text-align: center;"><a href="https://github.com/BrockMckjs/massearcher">View on GitHub</a></p>
-</div>
-   
-    </form>
+        <input type="checkbox" name="inputs" class="list" value="https://www.google.com/search?q=" id="Google"> Google<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.bing.com/search?q=" id="Bing"> Bing<br>
+        <input type="checkbox" name="inputs" class="list" value="https://duckduckgo.com/?q=" id="DuckDuckGo"> DuckDuckGo<br>
+        <input type="checkbox" name="inputs" class="list" value="https://en.wikipedia.org/wiki/" id="Wikipedia"> Wikipedia<br>
+        <input type="checkbox" name="inputs" class="list" value="https://github.com/search?q=" id="GitHub"> GitHub<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.ecosia.org/search?q=" id="Ecosia"> Ecosia<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.dogpile.com/serp?q=" id="Dogpile"> Dogpile<br>
+        <input type="checkbox" name="inputs" class="list" value="https://yippy.com/search?query=" id="YippySearch"> YippySearch<br>
+        <input type="checkbox" name="inputs" class="list" value="https://search.yahoo.com/search?p=" id="Yahoo"> Yahoo<br>
+        <input type="checkbox" name="inputs" class="list" value="https://archive.org/search.php?query=" id="The Internet Archive"> The Internet Archive<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.youtube.com/results?search_query=" id="YouTube"> Youtube<br>
+        <input type="checkbox" name="inputs" class="list" value="https://search.brave.com/search?q=" id="Brave"> Brave<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.protondb.com/search?q=" id="ProtonDB"> ProtonDB<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.eneba.com/us/store?text=" id="Eneba"> Eneba<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.g2a.com/search?query=" id="G2A"> G2A<br>
+        <input type="checkbox" name="inputs" class="list" value="https://gameflip.com/shop?page=1&status=onsale&term=" id="Gameflip"> Gameflip<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.walmart.com/search?q=" id="walmart"> Walmart<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.bestbuy.com/site/searchpage.jsp?st=" id="BestBUy"> BestBuy<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.newegg.com/p/pl?d=" id="newegg"> Newegg<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.ebay.com/sch/i.html?_nkw=" id="ebay"> Ebay<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.amazon.com/s?k=" id="amazon"> Amazon<br>
+        <input type="checkbox" name="inputs" class="list" value="https://www.pdfdrive.com/search?q=" id="PDFdrive" > PDFdrive<br>
+        <input type="checkbox" name="inputs" class="list" value="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C3&q=" id="GS" > Google Scholar<br>
+        <input type="checkbox" name="inputs" class="list" value="https://music.apple.com/us/search?term=" id="AppleM" > Apple Music<br>
+        <input type="checkbox" name="inputs" class="list" value="https://open.spotify.com/search/" id="Spotify" > Spotify<br>
+        <!--this will add <input type='text' name='myInputs' id="customInput" placeholder='https://example.com/search?q=' size='45'> --> 
+        <button type="button" name="inputs" class="list" value="add" id='custom'> Add<br></button>
+    </div>
+    <div>
+        <p class="bottom"></a>If you would like to have your store or search engine added, please email brockmckjs@gmail.com</p>
+        <p class="bottom"><a href="https://github.com/BrockMckjs/massearcher">View on GitHub</a></p>
+    </div>
+</form>
 
-    <body>
+<body></body>
