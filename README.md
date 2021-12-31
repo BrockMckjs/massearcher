@@ -32,7 +32,7 @@
     <a href="https://github.com/BrockMckjs/massearcher/issues">Report Bug</a>
     ·
     <a href="https://github.com/BrockMckjs/massearcher/issues">Request Feature</a>
-    .
+    <br />
     <a> If you would like to have your store or search engine added, please email brockmckjs@gmail.com</a>
   </p>
 </div>
@@ -109,7 +109,7 @@ Click "search" or hit "Enter" and it will open the results from each search engi
 
 <!-- ROADMAP -->
 ## Roadmap
-
+- [] make text next to buttons clickable 
 - [] Aggregate all search results to a single page
 - [] Firefox extension
 
