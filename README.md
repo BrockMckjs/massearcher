@@ -32,6 +32,7 @@
     <a href="https://github.com/BrockMckjs/massearcher/issues">Report Bug</a>
     ·
     <a href="https://github.com/BrockMckjs/massearcher/issues">Request Feature</a>
+    <a> If you would like to have your store or search engine added, please email brockmckjs@gmail.com</a>
   </p>
 </div>
 
