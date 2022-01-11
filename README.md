@@ -109,7 +109,7 @@ Click "search" or hit "Enter" and it will open the results from each search engi
 
 <!-- ROADMAP -->
 ## Roadmap
-- [] make text next to buttons clickable 
+- [x] make text next to buttons clickable
 - [] add a reigon filter
 - [] Aggregate all search results to a single page
 - [] Firefox extension
