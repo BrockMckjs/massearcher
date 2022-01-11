@@ -8,3 +8,13 @@ body{
 .bottom {
     text-align: center;
 }
+button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 6px;
+    cursor:pointer;
+    border: 0;
+}

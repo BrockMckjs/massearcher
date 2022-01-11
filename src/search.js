@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             var newdiv = document.createElement('div');
             //newdiv.id = dynamicInput[counter];
             newdiv.innerHTML = "<input type='text' name='myInputs' id='customInput' placeholder='https://example.com/search?q=' size='45' style='margin-left: 3%;width: 190px;'>" // add a remove button (messes up styling on front.html, will fix in later update.) <input type='button' value='-' id='removeInput'>";
-            document.getElementById('myForm').appendChild(newdiv);
+            document.getElementById('options').appendChild(newdiv);
 
         })
     })
