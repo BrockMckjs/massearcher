@@ -8,9 +8,6 @@ body{
 .bottom {
     text-align: center;
 }
-input[type="checkbox"]:checked {
-    color: blue;
-}
 button {
     background-color: black;
     color: white;
