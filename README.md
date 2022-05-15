@@ -33,7 +33,6 @@
     ·
     <a href="https://github.com/BrockMckjs/massearcher/issues">Request Feature</a>
     <br />
-    <a> If you would like to have your store or search engine added, please email brockmckjs@gmail.com</a>
   </p>
 </div>
 
@@ -144,11 +143,7 @@ https://github.com/othneildrew/Best-README-Template
 <!-- CONTACT -->
 ## Contact
 
-Brock McKenzie -  brockmckjs@gmail.com
-
 Project Link: [https://github.com/BrockMckjs/massearcher](https://github.com/BrockMckjs/massearcher)
-
-Web Store: https://chrome.google.com/webstore/detail/massearcher/ejdjflcmlhdebbljhblmefdajpldiggf
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
