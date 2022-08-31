@@ -28,4 +28,6 @@ input.list{
 #options{
     font-size: 16px;
     font-weight: 600;
+    margin-left: 5%; 
+    margin-right: auto;
 }
