@@ -113,6 +113,7 @@ Click "search" or hit "Enter" and it will open the results from each search engi
 - [] Aggregate all search results to a single page
 - [] Firefox extension
 - [] Port to TS
+- [] Add "Frequently visited sites" in the blank space to the right of the engine selection
 
 See the [open issues](https://github.com/BrockMckjs/massearcher/issues) for a full list of proposed features (and known issues).
 
