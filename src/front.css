@@ -3,7 +3,7 @@ body{
     background-color: black;
 }
 .list {
-    text-align: center; text-align: center;margin-left: 3%;
+ text-align: center;
 }
 .bottom {
     text-align: center;
@@ -19,6 +19,13 @@ button {
     border: 0;
 }
 
-.searx {
-    border:1px solid white;
+input.list{
+    width : 15px;
+    height : 15px;
+
+}
+
+#options{
+    font-size: 16px;
+    font-weight: 600;
 }
